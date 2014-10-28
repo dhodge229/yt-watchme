@@ -3,7 +3,7 @@ YouTube WatchMe for Android
 
 The code is a reference implementation for an Android OS application that creates a YouTube Live Streaming event and streams into that event.
 
-For more information, you can read the [Youtube API blog post](http://apiblog.youtube.com/2013/08/heres-my-playlist-so-submit-video-maybe.html).
+For more information, you can read the [Youtube API blog post](http://http://apiblog.youtube.com/2014/10/watchme-live-stream.html).
 
 This application utilizes [YouTube Data API v3](https://developers.google.com/youtube/v3/) , [YouTube Live Streaming API](https://developers.google.com/youtube/v3/live/), [Google Play Services](https://developer.android.com/google/play-services/index.html) and [Plus API](https://developers.google.com/+/mobile/android/Google).
 

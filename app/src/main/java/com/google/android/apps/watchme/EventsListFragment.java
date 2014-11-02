@@ -153,6 +153,10 @@ public class EventsListFragment extends Fragment implements
                     R.string.connection_to_google_play_failed,
                     Toast.LENGTH_SHORT).show();
 
+            Toast.makeText(getActivity(),String.format(
+                            "Connection to Play Services Failed, error: %d, reason: %s",
+                            connectionResult.getErrorCode(),
+                            connectionResult.toString()), Toast.LENGTH_LONG).show();
             Log.e(TAG,
                     String.format(
                             "Connection to Play Services Failed, error: %d, reason: %s",
@@ -163,6 +167,10 @@ public class EventsListFragment extends Fragment implements
             } catch (IntentSender.SendIntentException e) {
                 Log.e(TAG, e.toString(), e);
             }
+        }else{
+            Toast.makeText(getActivity(),
+                    connectionResult.toString(),
+                    Toast.LENGTH_SHORT).show();
         }
     }
 

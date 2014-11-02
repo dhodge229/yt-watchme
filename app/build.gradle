@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.1"
+    compileSdkVersion 21
+    buildToolsVersion "21.0.2"
 
     defaultConfig {
-        applicationId "com.google.android.apps.watchme"
+        applicationId "com.david.video"
         minSdkVersion 16
-        targetSdkVersion 19
+        targetSdkVersion 21
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
 
     buildTypes {
@@ -23,8 +23,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.google.android.gms:play-services:+'
-    compile 'com.android.support:support-v13:20.0.0'
-    compile 'com.google.apis:google-api-services-youtube:v3-rev120-1.19.0'
+    compile 'com.android.support:support-v13:+'
+    compile 'com.google.apis:google-api-services-youtube:+'
     compile 'com.google.http-client:google-http-client-android:+'
     compile 'com.google.api-client:google-api-client-android:+'
     compile 'com.google.api-client:google-api-client-gson:+'
